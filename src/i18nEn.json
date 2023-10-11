@@ -1,0 +1,14 @@
+{
+  "interface": {
+    "blocks": "Blocks used:"
+  },
+  "htmlInstr": {
+    "simpleNavigation": "Use the code blocks to guide the bee <img class='inlineSvg' src='/images/unplugged/character_up.svg'/> to the star <img class='inlineSvg' src='/images/unplugged/star.svg' />",
+    "simpleDebug": "Some blocks in this program are wrong! Find them and correct the errors!",
+    "navigationMiddleGoal": "Use the code blocks to guide the bee <img class='inlineSvg' src='/images/unplugged/character_up.svg'/> to the star <img class='inlineSvg' src='/images/unplugged/star.svg' /> but <strong>before</strong> pass over all the flowers <img class='inlineSvg' src='/images/unplugged/goal.svg' />!"
+  },
+  "feedback0": "Attempt ",
+  "feedback1": "Something is not right! Check the code!",
+  "feedbackSuccessHtml": "You solved the exercise! Good work!",
+  "blocks": "Blocks"
+}

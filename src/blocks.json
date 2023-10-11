@@ -1,0 +1,104 @@
+[
+  {
+    "type": "flag_block",
+    "message0": "",
+    "nextStatement": null
+  },
+  {
+    "type": "start",
+    "message0": "START",
+    "nextStatement": null
+  },
+  {
+    "type": "forward",
+    "message0": "move forward",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#165b31",
+    "tooltip": "Move forward one tile"
+  },
+  {
+    "type": "jump_forward",
+    "message0": "jump forward",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#00b0bd",
+    "tooltip": "Jump forward skipping one tile"
+  },
+  {
+    "type": "backward",
+    "message0": "move backward",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#165b31",
+    "tooltip": "Move backward one tile"
+  },
+  {
+    "type": "turn_left",
+    "message0": "turn left",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#165b31",
+    "tooltip": "turn left without changing tile"
+  },
+  {
+    "type": "turn_right",
+    "message0": "turn right",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#165b31",
+    "tooltip": "turn right without changing tile"
+  },
+  {
+    "type": "repeat",
+    "colour": "#f318a2",
+    "message0": "Repeat %1",
+    "tooltip": "Repeat commands",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TIMES",
+        "options": [
+          [ "2", "2" ],
+          [ "3", "3" ],
+          [ "4", "4" ],
+          [ "5", "5" ],
+          [ "6", "6" ],
+          [ "7", "7" ],
+          [ "8", "8" ],
+          [ "9", "9" ],
+          [ "10", "10" ]
+        ]
+      }
+    ],
+    "message1": "%1 %2",
+    "args1": [
+      {
+        "type": "field_image",
+        "src": "/images/blockly/loop.png",
+        "width": 40,
+        "height": 40,
+        "alt": "Ripeti"
+      },
+      {"type": "input_statement", "name": "DO"}
+    ],
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "pick_collectible",
+    "message0": "pick up flower",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#e5fcfc",
+    "tooltip": "Pick up one flower"
+  },
+  {
+    "type": "put_down_collectible",
+    "message0": "put flower in vase",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#fcfae5",
+    "tooltip": "Put down one flower in one vase"
+  }
+]
